@@ -1,0 +1,1 @@
+FROM oznu/homebridge:latest
