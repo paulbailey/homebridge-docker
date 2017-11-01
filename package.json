@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "homebridge-hue": "^0.5.41",
+    "homebridge-lgtv2": "^1.3.2",
+    "homebridge-nest": "^1.1.3-nolegacy",
+    "homebridge-server": "^1.0.24",
+    "homebridge-tplink-smarthome": "^3.10.0"
+  }
+}

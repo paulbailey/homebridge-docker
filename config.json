@@ -1,0 +1,47 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CC:22:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "031-45-154"
+    },
+    "description": "This is an example configuration file with one fake accessory and one fake platform. You can use this as a template for creating your own configuration file containing devices you actually own.",
+    "accessories": [
+        {
+            "accessory": "LGTv2",
+            "name": "Living Room TV",
+            "mac": "30:A9:DE:D3:11:0E",
+            "ip": "192.168.1.7",
+            "keyFile": "/var/lib/homebridge/lgtv-"
+        }
+    ],
+    "platforms": [
+        {
+            "platform": "Hue",
+            "name": "Hue",
+            "lights": true,
+	    "sensors": false,
+            "heartrate": 1,
+            "users": {
+                "001788FFFE4B0661": "H6cjVUCZzxwQbPMdglXTHOMDerClzlHUotMUyOl2"
+            }
+        },
+        {
+            "platform": "Server",
+            "port": 8765,
+            "name": "Homebridge Server",
+            "log": "systemd",
+            "restart": "sudo systemctl restart homebridge"
+        },
+        {
+            "platform": "Hs100"
+        },
+        {
+            "platform": "Nest",
+            "token": "c.R7WNz2XOCI6osVFsEPYM2nwp7OsesV4hHvgov85xb3PxPre3G1TDlaKHqwsnqeNvyp86g5acBwlRzEQRwknAjgsJQhClELJ15R5ic46IRz8cs5Uv6fVVubprvGRgk5ZcBLjbBk7JdHRxM8xg",
+            "clientId": "d58163d4-ed1a-4a94-a545-41b49e1e54e8",
+            "clientSecret": "EL64o8PqEEfdqZr1UqNCItRKH",
+            "code": "B2UNJTLS"
+        }
+    ]
+}
