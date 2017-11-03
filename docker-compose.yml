@@ -1,5 +1,11 @@
 version: '3'
 services:
   homebridge:
-    build: .
+    build: /homebridge/
+    ports:
+      - "51826:51826"
+    volumes:
+      - homebridge:/homebridge/
 
+volumes:
+  homebridge: {}
