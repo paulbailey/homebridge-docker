@@ -12,7 +12,7 @@
             "name": "Living Room TV",
             "mac": "30:A9:DE:D3:11:0E",
             "ip": "192.168.1.7",
-            "keyFile": "/var/lib/homebridge/lgtv-"
+            "keyFile": "/homebridge/lgtv-"
         }
     ],
     "platforms": [
@@ -34,7 +34,8 @@
             "restart": "sudo systemctl restart homebridge"
         },
         {
-            "platform": "Hs100"
+            "platform": "TplinkSmarthome",
+            "name": "TP-Link SmartHome"
         },
         {
             "platform": "Nest",
