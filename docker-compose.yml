@@ -1,11 +1,11 @@
 version: '3'
 services:
   homebridge:
-    build: /homebridge/
+    build: homebridge/
     ports:
       - "51826:51826"
     volumes:
       - homebridge:/homebridge/
-
+    network_mode: "host"
 volumes:
   homebridge: {}

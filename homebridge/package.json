@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "homebridge-hs100": "^3.7.0",
     "homebridge-hue": "^0.5.41",
     "homebridge-lgtv2": "^1.3.2",
     "homebridge-nest": "^1.1.3-nolegacy",
