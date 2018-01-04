@@ -27,17 +27,6 @@
             }
         },
         {
-            "platform": "Server",
-            "port": 8765,
-            "name": "Homebridge Server",
-            "log": "systemd",
-            "restart": "sudo systemctl restart homebridge"
-        },
-        {
-            "platform": "TplinkSmarthome",
-            "name": "TP-Link SmartHome"
-        },
-        {
             "platform": "Nest",
             "token": "c.R7WNz2XOCI6osVFsEPYM2nwp7OsesV4hHvgov85xb3PxPre3G1TDlaKHqwsnqeNvyp86g5acBwlRzEQRwknAjgsJQhClELJ15R5ic46IRz8cs5Uv6fVVubprvGRgk5ZcBLjbBk7JdHRxM8xg",
             "clientId": "d58163d4-ed1a-4a94-a545-41b49e1e54e8",
