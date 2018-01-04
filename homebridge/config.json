@@ -43,6 +43,12 @@
             "clientId": "d58163d4-ed1a-4a94-a545-41b49e1e54e8",
             "clientSecret": "EL64o8PqEEfdqZr1UqNCItRKH",
             "code": "B2UNJTLS"
+        },
+        {
+            "platform": "ring-video-doorbell",
+            "name": "Front Doorbell",
+            "username": "bailey@dreamshake.net",
+            "password": "pe47zene21rnRING"
         }
     ]
 }
